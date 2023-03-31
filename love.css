@@ -16,7 +16,7 @@ main {
   height: 60%;
   margin-top: 100px;
   background-color: white;
-  box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.925);
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.925);
   border-top-left-radius: 10px;
 }
 header {
@@ -36,9 +36,13 @@ header > h3{
   display: flex;
   justify-content: space-evenly;
 }
-
+.names > div{
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
 .names > div input {
-  line-height: 3rem;
+  width: 90%;
   outline: none;
   text-align: center;
   border:none;
@@ -55,7 +59,8 @@ button {
   padding: 0.3rem 3rem;
   font-size: 1.5rem;
   margin-top: 3rem;
-  background-color: rgba(0, 128, 0, 0.774);
+  border-radius: 10px;
+  background-color: rgba(0, 128, 0, 0.767);
 }
 .percentage{
   margin-top: 2rem;
