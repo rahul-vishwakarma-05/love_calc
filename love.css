@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color:rgba(128, 128, 128, 0.651);
+}
+main {
+  margin: 0 auto;
+  width: 95%;
+  height: 60%;
+  margin-top: 100px;
+  background-color: white;
+  box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.925);
+  border-top-left-radius: 10px;
+}
+header {
+  padding: 1.5rem;
+  color: white;
+  background-color: rgba(197, 64, 108, 0.719);
+  text-align: center;
+  position: relative;
+}
+
+header > h3{
+  /* border: 1px solid; */
+}
+.names {
+  height: 30%;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.names > div input {
+  line-height: 3rem;
+  outline: none;
+  text-align: center;
+  border:none;
+  border-bottom: 1px solid;
+}
+.names > div input::placeholder {
+  text-align: center;
+  color: black;
+}
+button {
+  border: none;
+  display: block;
+  margin: 0 auto;
+  padding: 0.3rem 3rem;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  background-color: rgba(0, 128, 0, 0.774);
+}
+.percentage{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+
+}
+.percentage > input{
+  width: 80%;
+  line-height: 3rem;
+  border: 1px solid;
+  outline: none;
+  text-align: center;
+  font-weight: 600;
+  background: linear-gradient(180deg, rgba(220, 28, 70, 0.842) 3%, rgba(192, 134, 148, 0.925) 81%);
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+.percentage > input::placeholder{
+  text-align: center;
+  color: white;
+
+}
